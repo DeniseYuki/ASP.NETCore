@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MeuPrimeiroProgramaNetCore.Pages
+namespace DesenvolvimentoAspNet.Pages
 {
     public class IndexModel : PageModel
     {
@@ -16,6 +16,7 @@ namespace MeuPrimeiroProgramaNetCore.Pages
         {
             _logger = logger;
         }
+
 
         public void OnGet()
         {
